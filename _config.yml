@@ -1,0 +1,26 @@
+# Site settings
+title: CS229 Machine Learning Notes Chinese Edition
+email: acdoge.cao@gmail.com
+description: "CS229 Notes Chinese Edition"
+baseurl: "/Stanford-CS229-CN"
+url: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  mathjax: true
+  
+# Front Matter Defaults
+defaults:
+  # Translation/Notes
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
